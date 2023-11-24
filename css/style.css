@@ -1,44 +1,44 @@
+@charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Sarala:wght@400;700&display=swap');
-:root{
 
+:root{
     --cor1: #92c4ca;
     --cor2: #04ADBF;
     --cor3: #F2A663;
     --cor4: #F28705;
     --cor5: #3e3d3d;
 
-
     --fonte-padrao: 'Sarala', sans-serif;
     --fonte-destaque: 'Modak', cursive;
-
 }
 
 *{
     padding: 0;
     margin: 0;
 }
-body{
-    max-width: 1600px;
-    color: rgb(0, 0, 0);
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    color: black;
     background-image: url("imagens/wallpaperflare.com_wallpaper.jpg");
     box-sizing: border-box;
     margin: 0 auto;
 }
-header{
-    background-color: rgb(237, 237, 237);
-    
-}
-main{
-    padding: 15px;
 
+header {
+    background-color: rgb(237, 237, 237);
+}
+
+main {
+    padding: 15px;
     background-image: linear-gradient(45deg, var(--cor2), var(--cor1));
     height: 100%;
     font-family: var(--fonte-padrao);
     color: var(--cor5);
-    
 }
 
-.itens{
+.itens {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -46,8 +46,7 @@ main{
     gap: 30px;
 }
 
-.sobre{
-    
+.sobre {
     background-color: var(--cor1);
     height: 100%;
     font-family: var(--fonte-padrao);
@@ -55,75 +54,62 @@ main{
     padding-bottom: 40px;
 }
 
-.tit__sobre,
-.tit__principal{   
-
+.tit__sobre, .tit__principal {
     padding: 30px;   
     color: #ffffff;
     text-align: center;
     font-size: 2.5em;
     text-shadow: 3px 2px 1px rgb(177, 176, 176);
-    
-    
-  
-    
-
 }
-.p__sobre{
+
+.p__sobre {
     max-width: 800px;
     margin: 0 auto;
 }
 
-
-
-
-.cabecalho{
+.cabecalho {
     display: flex;
     flex-direction: column;    
     align-items: center;
-    
-
     font-family: var(--fonte-destaque);
     font-size: 2em;
-    
-    
 }
 
-.cabecalho__opt{   
+.cabecalho__opt {   
     display: flex;    
     justify-content: space-between;   
-
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
-.cabecalho__h{
+
+.cabecalho__h {
     margin-right: 20px;
     text-decoration: none;
     color: var(--cor2);
     font-size: 1.2em;
     text-shadow: 2px 2px 1px rgba(206, 204, 204, 0.596);
 }
-.cabecalho__h:hover{
+
+.cabecalho__h:hover {
     color: var(--cor1);
 }
 
-.cabecalho__a{
+.cabecalho__a {
     text-decoration: none;
     color: var(--cor2);
     font-size: 1.2em;
     text-shadow: 2px 2px 1px rgba(206, 204, 204, 0.596);
     
 }
-.cabecalho__a:hover{
+
+.cabecalho__a:hover {
     color: var(--cor1);
 }
 
-.cabecalho__logo{
-
+.cabecalho__logo {
     max-width: 250px;
 }
 
-h2{
+h2 {
     margin-left: 15px;
     font-family: var(--fonte-padrao);
     color: var(--cor2);
@@ -131,41 +117,45 @@ h2{
     font-size: 2.3em;
     text-align: center;
     padding-bottom: 20px;
-    
 }
-#contador{
+
+#contador {
     width: 400px;
     background-color: #ffffff;    
     padding: 15px;    
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.553);
 }
-#tabuada{
+
+#tabuada {
     width: 400px;
     background-color: #ffffff;    
     padding: 15px;    
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.553);
 }
-#calculadora{
+
+#calculadora {
     width: 400px;
     background-color: #ffffff;
     padding: 15px;         
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.553);
 }
-#conjuntos{
+
+#conjuntos {
     width: 400px;
     background-color: #ffffff;
     padding: 15px;         
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.553);
 }
-table{
+
+table {
     padding-left: 5px;
 }
 
-.calculadora__btn{
+.calculadora__btn {
     width: 80px;
     height: 50px;
     font-size: 25px;
@@ -176,12 +166,13 @@ table{
     border: none;
     color: var(--cor4);
 }
-.calculadora__btn:hover{
+
+.calculadora__btn:hover {
     background-color: var(--cor3);
     color: #ffffff;
-
 }
-#resultado{
+
+#resultado {
     box-sizing: border-box;
     text-align: center;    
     margin-left: 29px;
@@ -191,19 +182,18 @@ table{
     border-radius: 5px;
     font-weight: bold;
     color: #ffffff;
-
 } 
 
 #conjuntos > h3 {
     color: var(--cor4);
 }
+
 #conjuntos > p {
     padding: 0px 5px 5px;
     color: var(--cor5);
 }
 
-
-footer{
+footer {
     background-color: white;
     font-family: var(--fonte-padrao);
     text-align: center;

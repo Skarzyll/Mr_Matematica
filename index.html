@@ -13,7 +13,6 @@
 <body>
     <header>
         <section class="cabecalho">
-
             <img src="logo/logo.png" alt="logo" class="cabecalho__logo">
 
             <div class="cabecalho__opt">
@@ -23,33 +22,27 @@
             </div>
             <!--<div>Home</div>
             <div>About</div> -->
-
-            
         </section>
-       
-        
     </header>
-
     <main>
         <h1 class="tit__principal">Any help there?</h1>
 
-        
         <section class="itens">
-
             <section id="contador">
                 <H2>Contador</H2>
+
                 <div id="dados">
                     <p>Início: <input type="number" name="inicio" id="txti"></p>
                     <p>Fim: <input type="number" name="fim" id="txtf"></p>
                     <p>Passo: <input type="number" name="passo" id="txtp"></p>
                     <p><input type="button" value="contar" onclick="contar()"></p>
                 </div>
-                <div id="res">
-                </div>
+
+                <div id="res"></div>
             </section>
-            
             <section id="tabuada">
                 <h2>Tabuada</h2>
+
                 <div>
                     <p id="numero">Número: <input type="number" name="number" id="txtn"> <input type="button" value="Gerar tabuada" onclick="tabuada()"></p>
                 </div>
@@ -61,10 +54,11 @@
                 </div>
             
             </section>
-            
             <section id="calculadora">
                 <h2>Calculadora</h2>
+
                 <p id="resultado"></p>
+
                 <table>
                     <tr>
                         <td><button class="calculadora__btn" onclick="clean()">C</button></td>
@@ -98,7 +92,7 @@
                 </table>
             </section>
 
-            <!--tentei criar uma <SELECT> mais no momento não tinha proficiencia o sufiente, então resolvi adotar uma abordagem mais simples...
+            <!--tentei criar uma <SELECT>, mas no momento não tinha proficiencia o sufiente, então resolvi adotar uma abordagem mais simples...
 
             <section id="conjuntos">
                 <h2>Conjuntos</h2>
@@ -115,7 +109,7 @@
                     <option value="Z">... -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ...</option>                    
                     <option value="I">2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 e 97</option>
                     
-                </select
+                </select>
 
             </section>>-->
 
@@ -123,23 +117,19 @@
                 <h2>Conjuntos</h2>
 
                 <h3>Números Naturais (N)</h3>
-                    <p>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 ...</p>
+                <p>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 ...</p>
                     
                 <h3>Números Inteiros (Z)</h3>
-                    <p>... -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ...</p>
+                <p>... -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ...</p>
+
                 <h3>Números Primos de (1 a 100)</h3>
-                    <p>2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 e 97</p>
-
+                <p>2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 e 97</p>
             </section>
-
         </section>
     </main>
-    
     <footer>
         <p>&copy; Hugo Leonardo</p>
     </footer>
-
     <script src="/js/script.js"></script>
-
 </body>
 </html>
